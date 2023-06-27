@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * calculate_cast_size - Determines the size for casting the argument
- * @format: Formatted string containing the printing specifications
- * @i: List of arguments to be printed
- *
- * Returns: The calculated size for casting
- * */
+ * get_size - Determines the size for casting the argument
+ * @format:  string format containing the printing specifications
+ * @i: List of arguments that will be printed
+ * Return: size
+ **/
 int get_size(const char *format, int *i)
 {
 	int curr_i = *i + 1;
@@ -24,4 +23,3 @@ int get_size(const char *format, int *i)
 
 	return (size);
 }
-
