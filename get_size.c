@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * calculate_width - Determines the width required for printing
+ * calculate_cast_size - Determines the size for casting the argument
  * @format: Formatted string containing the printing specifications
  * @i: List of arguments to be printed
- * @list: List of arguments
  *
- * Returns: The calculated width
+ * Returns: The calculated size for casting
  * */
 int get_size(const char *format, int *i)
 {
